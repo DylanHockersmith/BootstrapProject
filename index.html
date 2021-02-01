@@ -61,20 +61,20 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row form-group">
+                            <div class="form-group row">
                                 <label for="date" class="col-sm-6 col-form-label">Date</label>
                                 <div class="col">
                                     <input type="date" class="form-control" id="date" name="date" placeholder="Date"/>
                                 </div>
                             </div>
-                            <div class="row form-group">
-                                <label class="col-6 col-form-label">Campsite Type</label>
-                                <div data-toggle="buttons" class="btn-group btn-group-toggle">
-                                    <label class="btn btn-success active">
-                                        <input type="radio" name="options" id="siteTent" autocomplete="off" checked> tent
+                            <div class="form-group row">
+                                <label class="col-sm-6 col-form-label">Campsite Type</label>
+                                <div data-toggle="buttons" class="col-2 btn-group btn-group-toggle">
+                                    <label class="btn btn-success">
+                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked>tent
                                       </label>
                                       <label class="btn btn-primary">
-                                        <input type="radio" name="options" id="siteRV" autocomplete="off"> RV
+                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off">RV
                                       </label>
                                 </div>
                             </div>
@@ -280,10 +280,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
